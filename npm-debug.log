@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\lugy\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@4.1.2
+3 info using node@v6.10.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\ProjectList\\xtp-cli',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\lugy\AppData\Roaming\npm-cache\xtp-cli\0.1.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\lugy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle xtp-cli@0.1.1~prepublish: xtp-cli@0.1.1
+11 silly lifecycle xtp-cli@0.1.1~prepublish: no script for prepublish, continuing
+12 info lifecycle xtp-cli@0.1.1~prepare: xtp-cli@0.1.1
+13 silly lifecycle xtp-cli@0.1.1~prepare: no script for prepare, continuing
+14 verbose tar pack [ 'C:\\Users\\lugy\\AppData\\Roaming\\npm-cache\\xtp-cli\\0.1.1\\package.tgz',
+14 verbose tar pack   'D:\\ProjectList\\xtp-cli' ]
+15 verbose tarball C:\Users\lugy\AppData\Roaming\npm-cache\xtp-cli\0.1.1\package.tgz
+16 verbose folder D:\ProjectList\xtp-cli
+17 verbose addLocalTarball adding from inside cache C:\Users\lugy\AppData\Roaming\npm-cache\xtp-cli\0.1.1\package.tgz
+18 verbose correctMkdir C:\Users\lugy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+19 silly cache afterAdd xtp-cli@0.1.1
+20 verbose afterAdd C:\Users\lugy\AppData\Roaming\npm-cache\xtp-cli\0.1.1\package\package.json not in flight; writing
+21 verbose correctMkdir C:\Users\lugy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+22 verbose afterAdd C:\Users\lugy\AppData\Roaming\npm-cache\xtp-cli\0.1.1\package\package.json written
+23 silly publish { name: 'xtp-cli',
+23 silly publish   version: '0.1.1',
+23 silly publish   description: '贤二智能科技基础服务脚手架',
+23 silly publish   main: 'index.js',
+23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+23 silly publish   author: { name: 'xtits.cn' },
+23 silly publish   license: 'ISC',
+23 silly publish   preferGlobal: true,
+23 silly publish   bin: { xtp: './bin/xtp-cli.js' },
+23 silly publish   dependencies: { bluebird: '^3.5.0', commander: '^2.9.0', 'fs-extra': '^3.0.1' },
+23 silly publish   readme: 'ERROR: No README data found!',
+23 silly publish   _id: 'xtp-cli@0.1.1',
+23 silly publish   _shasum: 'caf59db34b891142f395a6292c99740e90470bf3',
+23 silly publish   _from: '.' }
+24 info lifecycle xtp-cli@0.1.1~prepublishOnly: xtp-cli@0.1.1
+25 silly lifecycle xtp-cli@0.1.1~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name xtp-cli
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npm.taobao.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'xtp-cli',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'xtp-cli',
+30 silly mapToRegistry   name: 'xtp-cli',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npm.taobao.org/xtp-cli
+32 verbose publish registryBase https://registry.npm.taobao.org/
+33 silly publish uploading C:\Users\lugy\AppData\Roaming\npm-cache\xtp-cli\0.1.1\package.tgz
+34 verbose request uri https://registry.npm.taobao.org/xtp-cli
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 12:30:45
+37 verbose request id 8243252f41b29d66
+38 http request PUT https://registry.npm.taobao.org/xtp-cli
+39 http 403 https://registry.npm.taobao.org/xtp-cli
+40 verbose headers { date: 'Fri, 12 May 2017 04:30:56 GMT',
+40 verbose headers   'content-type': 'application/json; charset=utf-8',
+40 verbose headers   'content-length': '87',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-current-requests': '1',
+40 verbose headers   'x-readtime': '35' }
+41 verbose request invalidating C:\Users\lugy\AppData\Roaming\npm-cache\registry.npm.taobao.org\xtp-cli on PUT
+42 error publish Failed PUT 403
+43 verbose stack Error: no_perms Private mode enable, only admin can publish this module: xtp-cli
+43 verbose stack     at makeError (C:\Users\lugy\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:304:12)
+43 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\lugy\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:292:14)
+43 verbose stack     at Request._callback (C:\Users\lugy\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:212:14)
+43 verbose stack     at Request.self.callback (C:\Users\lugy\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:186:22)
+43 verbose stack     at emitTwo (events.js:106:13)
+43 verbose stack     at Request.emit (events.js:191:7)
+43 verbose stack     at Request.<anonymous> (C:\Users\lugy\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1081:10)
+43 verbose stack     at emitOne (events.js:96:13)
+43 verbose stack     at Request.emit (events.js:188:7)
+43 verbose stack     at IncomingMessage.<anonymous> (C:\Users\lugy\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1001:12)
+44 verbose statusCode 403
+45 verbose pkgid xtp-cli
+46 verbose cwd D:\ProjectList\xtp-cli
+47 error Windows_NT 10.0.14393
+48 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\lugy\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+49 error node v6.10.1
+50 error npm  v4.1.2
+51 error code E403
+52 error no_perms Private mode enable, only admin can publish this module: xtp-cli
+53 error If you need help, you may report this error at:
+53 error     <https://github.com/npm/npm/issues>
+54 verbose exit [ 1, true ]
