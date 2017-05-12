@@ -1,13 +1,11 @@
-/**
- * Created by lugy on 2017/5/12.
- */
+#!/usr/bin/env node
 var program=require("commander"),
     Promise=require("bluebird"),
     gs=require('../lib/generateTemplate');
 
 program
     .version(require('../package.json').version)
-    .usage('[options] [project name]')
+    .usage('[project name]')
     .parse(process.argv);
 
 var pname=program.args[0];
