@@ -217,7 +217,7 @@
     import util from '../../common/js/util'
     //import NProgress from 'nprogress'
     import { getAppList,getMenuList,addMenuInfo,editMenuInfo,deleteMenuInfo,getAllIcons } from '../../api/api';
-    import search from '../mes/search.vue'
+    import search from '../../components/search.vue'
     import {CodeChange,MessageBox} from '../../common/js/util'
 
     export default {

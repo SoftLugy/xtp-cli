@@ -53,9 +53,8 @@ let routes = [
         name: '基础信息',
         iconCls: 'fa fa-bank',//图标样式class
         children: [
-            { path: '/baseindex', component:baseindex,name:'首页' },
             { path: '/userinfo', component: userinfo, name: '个人信息设置' },
-            //{ path: '/app', component:require('./views/base/applist'),name:'应用管理' },
+            { path: '/app', component:require('./views/base/applist'),name:'应用管理' },
             { path: '/menu', component:menu,name:'菜单管理' },
             { path: '/user', component: userlist, name: '用户管理' },
             { path: '/role', component: role, name: '角色管理' },

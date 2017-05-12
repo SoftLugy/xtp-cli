@@ -159,7 +159,7 @@
     import { getUserList,addUserInfo,editUserInfo,deleteUserInfo,getRoleList,getUserRoleList,updateRoleUser,updateUserResetPassword } from '../../api/api';
     import {CheckExp,CodeChange,MessageBox} from '../../common/js/util'
     import usermenu from './usermenu';
-    import search from '../mes/search.vue'
+    import search from '../../components/search.vue'
 
     export default {
         data() {

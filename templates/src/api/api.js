@@ -175,6 +175,14 @@ export const getRoleMenuList=params=>{return axios.post(`${base}/roleMenu/listRo
 export const getUserRoleList=params=>{return axios.post(`${base}/roleUser/listRoleUser`,params);}
 export const updateRoleUser=params=>{return axios.post(`${base}/roleUser/updateRoleUser`,params);}
 
+/*
+ 系统配置*/
+export const SystemConfigAPI={
+    getSysConfigList(params){
+        return axios.post(`${base}/sysConfig/listErrorCode`,params);
+    }
+}
+
 const router = new VueRouter({
     routes
 })

@@ -1,5 +1,5 @@
 import { Message  } from 'element-ui';
-import {SystemConfigAPI} from '../../api/mes/api'
+import {SystemConfigAPI} from '../../api/api'
 
 var SIGN_REGEXP = /([yMdhsm])(\1*)/g;
 var DEFAULT_PATTERN = 'yyyy-MM-dd';

@@ -99,7 +99,7 @@
     //import NProgress from 'nprogress'
     import { getRoleList,addRoleInfo,editRoleInfo,deleteRoleInfo } from '../../api/api';
     import rolemenu from './rolemenu';
-    import search from '../mes/search.vue'
+    import search from '../../components/search.vue'
     import {CodeChange,MessageBox} from '../../common/js/util'
 
     export default {
