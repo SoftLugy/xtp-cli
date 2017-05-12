@@ -3,7 +3,7 @@
  */
 var program=require("commander"),
     Promise=require("bluebird"),
-    gs=require('./lib/generateTemplate');
+    gs=require('../lib/generateTemplate');
 
 program
     .version(require('../package.json').version)
